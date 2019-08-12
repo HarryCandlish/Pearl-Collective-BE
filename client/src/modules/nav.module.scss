@@ -1,0 +1,33 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 7vh;
+  background-color: #e4decd;
+}
+
+.navLinks {
+  display: flex;
+  width: 55%;
+  justify-content: space-around;
+  letter-spacing: 3px;
+  margin: 5px;
+  position: absolute;
+  left: 35%;
+  top: -1px;
+}
+
+.links {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #3a4660;
+  text-decoration: none;
+}
+
+.links:hover {
+  color: #ed8a63;
+}
+
+li {
+  list-style: none;
+}
